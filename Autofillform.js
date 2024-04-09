@@ -12,7 +12,7 @@
 // ==/UserScript==
 (function() {
     'use strict';
-
+    // Only works with greasemonkey
     // Function to emulate keyboard strokes for the email input element
     function emulateEmailInput() {
         var emailInputElement = document.getElementById("mail");
